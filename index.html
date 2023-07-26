@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rotasi.co</title>
+
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Home -->
+    <nav
+      class="navbar navbar-expand-lg bg-dark navbar-dark shadow-lg fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Rotasi.co</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-right"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Beranda</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Pelayanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#produk">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="true"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/6.jpg" class="d-block w-100" alt="" />
+        </div>
+        <!-- ======= Hero Section ======= -->
+        <section id="hero">
+          <div class="hero-container text-center">
+            <h1>Temukan Sepatu Favoritmu</h1>
+            <h2>
+              Kami menyediakan berbagai macam model sepatu berkualitas serta
+              jasa perawatan sepatu dengan harga yang pasti terjangkau. klik
+              tombol cek disini sekarang!
+            </h2>
+
+            <a href="whatsapp://send?text=Hello&phone=+6281279984957">
+              <div class="text-center mt-3">
+                <button type="submit" class="btn btn-primary rounded-pill px-4">
+                  Cek Disini!
+                </button>
+              </div>
+            </a>
+          </div>
+        </section>
+        <!-- #hero -->
+      </div>
+
+      <!-- About -->
+      <div class="container-fluid bg-light pt-5 pb-5" id="about">
+        <div class="container">
+          <h2 class="display-5 text-center">Tentang Rotasi.co</h2>
+          <p class="text-center">
+            Rotasi.co merupakan sebuah toko sepatu yang didirikan di Klaten pada
+            tahun 2020. Kami menyediakan berbagai sepatu brand lokal dan luar
+            dengan kualitas original. baik itu baru ataupun second. Seiring
+            berjalannya waktu, sekarang kami telah menyediakan pemesanan secara
+            online karena banyaknya permintaan pelanggan dari luar pulau.
+          </p>
+          <center>
+            <h5 class="col-md-4 mt-4 text-center">VISI</h5>
+            <p class="col-md-4 mt-4 text-center">
+              Toko Sepatu yang mampu memberikan kesan puas dan nyaman dihati
+              pelanggan.
+            </p>
+
+            <h5 class="col-md-4 mt-4 text-center">MISI</h5>
+            <p class="col-md-4 mt-4 text-center">
+              Menjadikan toko sepatu yang terbaik dan meyediakan berbagai brand
+              lebih banyak lagi
+            </p>
+
+            <h5 class="col-md-4 mt-4 text-center">Rotasi.co</h5>
+          </center>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service -->
+    <div class="container-fluid service pt-5 pb-5" id="service">
+      <div class="container text-center">
+        <h2 class="display-5">Pelayanan</h2>
+        <p>Anda puas Kami pun Senang</p>
+        <div class="row pt-4">
+          <div class="col-md-6">
+            <span class="bulet"
+              ><img src="img/jual.jpg" class="bulet" alt=""
+            /></span>
+            <h2 class="mt-3">Menjual</h2>
+            <p>Menjual berbagai macam brand sepatu luar dan lokal</p>
+          </div>
+
+          <div class="col-md-6">
+            <span class="bulet"
+              ><img src="img/cuci sepatu.jpg" class="bulet" alt=""
+            /></span>
+            <h2 class="mt-3">Merawat</h2>
+            <p>
+              Mencuci sepatu sampai bersih dan wangi seperti baru dan
+              memperbaiki yang rusak
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Produk -->
+    <div class="container-fluid pt-5 pb-5 bg-light" id="produk">
+      <div class="container text-center">
+        <h2 class="display-5">Produk</h2>
+        <p>Barang Tersedia</p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="Img/1.jpg"
+                class="card-img-top"
+                width="230"
+                height="230"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Convers</h5>
+                <p class="card-text">Kondisi 90% Tidak ada minus</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="Img/6.jpg"
+                class="card-img-top"
+                width="230"
+                height="230"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Adidas</h5>
+                <p class="card-text">Kondisi Baru</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="Img/2.jpg"
+                class="card-img-top"
+                width="230"
+                height="230"
+              />
+              <div class="card-body">
+                <h5 class="card-title">New Balance</h5>
+                <p class="card-text">Kondisi Baru</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="Img/3.jpg"
+                class="card-img-top"
+                width="230"
+                height="230"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Puma</h5>
+                <p class="card-text">Kondisi Baru</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="Img/4.jpg"
+                class="card-img-top"
+                width="230"
+                height="230"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Compas</h5>
+                <p class="card-text">Kondisi 80%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="Img/5.jpg"
+                class="card-img-top"
+                width="230"
+                height="230"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Patrobas</h5>
+                <p class="card-text">Kondisi Baru</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <section
+      class="container-fluid bg-light contact pt-5 pb-5 mb-4"
+      id="contact"
+    >
+      <!--Section heading-->
+      <h2 class="h1-responsive font-weight-bold text-center my-4">
+        Kontak Kami
+      </h2>
+      <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5 mt-3">
+        Punya pertanyaan lagi? Silahkan ke Kontak Kami untuk Lebih lanjut
+      </p>
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5 mt-1">
+          <form
+            id="contact-form"
+            name="contact-form"
+            action="mail.php"
+            method="POST"
+          >
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <label for="name">Nama</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control mb-3"
+                  />
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <label for="email">Email</label>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    class="form-control mb-3"
+                  />
+                </div>
+              </div>
+              <!--Grid column-->
+            </div>
+
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-12">
+                <div class="md-form">
+                  <textarea
+                    type="text"
+                    id="message"
+                    name="message"
+                    rows="5"
+                    class="form-control md-textarea"
+                  ></textarea>
+                  <label for="message">Pesan Anda</label>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+          </form>
+
+          <div class="text-center text-md-left">
+            <a
+              class="btn btn-primary"
+              onclick="document.getElementById('contact-form').submit();"
+              >Kirim</a
+            >
+          </div>
+          <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+            <li>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <p><a href="" target="blank_" id="ig">rotasi_co</a></p>
+            </li>
+
+            <li>
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              <p><a href="" target="blank_" id="fb">Rotasi.co</a></p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+    </section>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="src/topButton.js"></script>
+  </body>
+
+  <footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.1)">
+      © 2022 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Rotasi.co</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</html>
